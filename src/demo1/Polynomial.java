@@ -19,7 +19,11 @@ public class Polynomial {
 						int[] p = new int[10];
 						List<String> ch = new ArrayList<String>();
 						int i2 =0;
-						int be = 11;//起始数组位置
+<<<<<<< HEAD
+						int be = 11;//起始
+=======
+						int be = 11;//起始
+>>>>>>> remotes/origin/1140310423
 						while(be < str.length() &&"=".equals(str.substring(be,be+1))){
 							n+=1;
 							ch.add(str.substring(be-1,be));
